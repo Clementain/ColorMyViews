@@ -115,12 +115,14 @@
         app:layout_constraintEnd_toStartOf="@+id/yellow_button"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
+
     <Button
         android:id="@+id/yellow_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/margin_wide"
         android:layout_marginTop="@dimen/margin_wide"
+        android:layout_marginEnd="16dp"
         android:layout_marginBottom="@dimen/margin_wide"
         android:text="@string/button_yellow"
         android:visibility="visible"
